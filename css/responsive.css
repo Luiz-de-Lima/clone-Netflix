@@ -1,0 +1,36 @@
+@media screen and (max-width: 990px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .filme-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+    }
+    .botao {
+        margin-top: 5px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .carrousel-filmes {
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 50%;
+    }
+    .filme-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
